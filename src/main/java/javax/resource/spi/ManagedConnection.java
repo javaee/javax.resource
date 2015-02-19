@@ -156,7 +156,7 @@ public interface ManagedConnection {
 
   /** 
    *  Used typically by the container to change the association of an 
-   *  application-level connection handle with a ManagedConneciton 
+   *  application-level connection handle with a ManagedConnection 
    *  instance. The container should find the right ManagedConnection 
    *  instance and call the associateConnection method.
    *  In order to set a Connection Handle as the active connection 
