@@ -64,7 +64,7 @@
     <name>${extension.name} API</name>
     <description>Java EE Connector Architecture API</description>
     
-    <url>http://connector-spec.java.net</url>
+    <url>https://github.com/javaee/connector-spec</url>
 
     <developers>
         <developer>
@@ -78,20 +78,20 @@
     </developers>
 
     <organization>
-        <name>GlassFish Community</name>
-        <url>https://glassfish.java.net</url>
+        <name>Oracle Corporation</name>
+        <url>http://www.oracle.com/</url>
     </organization>
     <licenses>
         <license>
             <name>CDDL + GPLv2 with classpath exception</name>
-            <url>https://glassfish.dev.java.net/nonav/public/CDDL+GPL.html</url>
+            <url>https://oss.oracle.com/licenses/CDDL+GPL-1.1</url>
             <distribution>repo</distribution>
             <comments>A business-friendly OSS license</comments>
         </license>
     </licenses>
     <issueManagement>
         <system>jira</system>
-        <url>http://java.net/jira/browse/CONNECTOR_SPEC</url>
+        <url>https://github.com/javaee/javax.resource/issues</url>
     </issueManagement>
     <mailingLists>
         <mailingList>
@@ -100,9 +100,9 @@
         </mailingList>
     </mailingLists>
     <scm>
-        <connection>scm:svn:https://svn.java.net/svn/glassfish~svn/trunk/api/javaee-api/javax.resource</connection>
-        <developerConnection>scm:svn:https://svn.java.net/svn/glassfish~svn/trunk/api/javaee-api/javax.resource</developerConnection>
-        <url>http://java.net/projects/glassfish/sources/svn/show/trunk/api/javaee-api/javax.resource</url>
+        <connection>scm:git:git://github.com/javaee/javax.resource</connection>
+        <developerConnection>scm:git:git://github.com/javaee/javax.resource</developerConnection>
+        <url>https://github.com/javaee/javax.resource</url>
     </scm>
 
     <build>
