@@ -64,7 +64,7 @@
     <name>${extension.name} API</name>
     <description>Java EE Connector Architecture API</description>
     
-    <url>https://github.com/javaee/connector-spec</url>
+    <url>https://github.com/javaee/javax.resource</url>
 
     <developers>
         <developer>
@@ -93,12 +93,6 @@
         <system>jira</system>
         <url>https://github.com/javaee/javax.resource/issues</url>
     </issueManagement>
-    <mailingLists>
-        <mailingList>
-            <name>Connector Spec Users</name>
-            <archive>users@connector-spec.java.net</archive>
-        </mailingList>
-    </mailingLists>
     <scm>
         <connection>scm:git:git://github.com/javaee/javax.resource.git</connection>
         <developerConnection>scm:git:git://github.com/javaee/javax.resource.git</developerConnection>
