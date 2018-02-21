@@ -100,8 +100,8 @@
         </mailingList>
     </mailingLists>
     <scm>
-        <connection>scm:git:git://github.com/javaee/javax.resource</connection>
-        <developerConnection>scm:git:git://github.com/javaee/javax.resource</developerConnection>
+        <connection>scm:git:git://github.com/javaee/javax.resource.git</connection>
+        <developerConnection>scm:git:git://github.com/javaee/javax.resource.git</developerConnection>
         <url>https://github.com/javaee/javax.resource</url>
     </scm>
 
