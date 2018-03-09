@@ -94,8 +94,8 @@
         <url>https://github.com/javaee/javax.resource/issues</url>
     </issueManagement>
     <scm>
-        <connection>scm:git:git://github.com/javaee/javax.resource.git</connection>
-        <developerConnection>scm:git:git://github.com/javaee/javax.resource.git</developerConnection>
+        <connection>scm:git:https://github.com/javaee/javax.resource.git</connection>
+        <developerConnection>scm:git:git@github.com/javaee/javax.resource.git</developerConnection>
         <url>https://github.com/javaee/javax.resource</url>
     </scm>
 
