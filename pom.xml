@@ -94,8 +94,8 @@
         <url>https://github.com/javaee/javax.resource/issues</url>
     </issueManagement>
     <scm>
-        <connection>scm:git:git://github.com/javaee/javax.resource.git</connection>
-        <developerConnection>scm:git:git://github.com/javaee/javax.resource.git</developerConnection>
+        <connection>scm:git:https://github.com/javaee/javax.resource.git</connection>
+        <developerConnection>scm:git:git@github.com:javaee/javax.resource.git</developerConnection>
         <url>https://github.com/javaee/javax.resource</url>
     </scm>
 
@@ -232,8 +232,9 @@
                 <artifactId>maven-javadoc-plugin</artifactId>
                 <version>2.8</version>
                 <configuration>
+                    <additionalparam>-Xdoclint:none</additionalparam>
                     <bottom>
-<![CDATA[Copyright &#169; 1999-2013,
+<![CDATA[Copyright &#169; 1999-2018,
     <a href="http://www.oracle.com">Oracle</a>
     and/or its affiliates. All Rights Reserved.
     Use is subject to
@@ -257,6 +258,12 @@
                             </groups>
                         </configuration>
                     </execution>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                   </execution>
                 </executions>
             </plugin>     
             <plugin>
@@ -298,6 +305,19 @@
                         </plugins>                        
                     </reporting>
                 </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-gpg-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <id>sign-artifacts</id>
+		        <phase>verify</phase>
+                        <goals>
+                            <goal>sign</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
     </build>
