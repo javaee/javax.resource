@@ -46,12 +46,12 @@
     <parent>
         <groupId>net.java</groupId>
         <artifactId>jvnet-parent</artifactId>
-        <version>3</version>
+        <version>5</version>
     </parent>
 
     <groupId>javax.resource</groupId>
     <artifactId>javax.resource-api</artifactId>
-    <version>1.7.1.RC1</version>
+    <version>1.7.1-SNAPSHOT</version>
     
     <properties>
         <extension.name>javax.resource</extension.name>
@@ -309,6 +309,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-gpg-plugin</artifactId>
+                <version>1.6</version>
                 <executions>
                     <execution>
                         <id>sign-artifacts</id>
